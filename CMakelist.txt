@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(HW4 C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(HW4 PhotoLab.c Test.c Test.h Image.c Image.h DIPs.c DIPs.h Advanced.c Advanced.h FileIO.c FileIO.h Constants.h)
